@@ -1,0 +1,54 @@
+﻿<Window x:Class="vaporwave_text.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:vaporwave_text"
+        mc:Ignorable="d"
+        Title="蒸 汽 波" Height="418.735" Width="538.71" Icon="vapor.png">
+    <Window.Resources>
+        <LinearGradientBrush x:Key="red-blue" EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="Red" Offset="0"/>
+            <GradientStop Color="#FF0074FF" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Resources>
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black" Offset="0"/>
+                <GradientStop Color="#FF9E4545" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBox TextChanged="textbox1_TextChanged" x:Name="textbox1" HorizontalAlignment="Left" Height="91.114" Margin="52.429,125.016,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="429.486" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" AutomationProperties.HelpText="input" Foreground="#FFD4D4D4" FontSize="16">
+            <TextBox.Effect>
+                <DropShadowEffect BlurRadius="50" Color="#FF989FB6"/>
+            </TextBox.Effect>
+            <TextBox.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF8433F9" Offset="0"/>
+                    <GradientStop Color="#FFD81D1D" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.BorderBrush>
+        </TextBox>
+        <TextBox x:Name="textbox2" HorizontalAlignment="Left" Height="97.813" Margin="52.429,240.112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="429.486" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" Foreground="#FFD4D4D4" FontSize="16">
+            <TextBox.Effect>
+                <DropShadowEffect BlurRadius="50" Color="#FF5168B6"/>
+            </TextBox.Effect>
+            <TextBox.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF0E95AA" Offset="0"/>
+                    <GradientStop Color="#FF071423" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.BorderBrush>
+        </TextBox>
+        <Label Content="vapor wave text&#xD;&#xA;" HorizontalAlignment="Left" Margin="60.248,32.332,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="48" Height="71.702">
+            <Label.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="Red"/>
+                    <GradientStop Color="#FFFFF0F0" Offset="1"/>
+                </LinearGradientBrush>
+            </Label.Foreground>
+        </Label>
+
+    </Grid>
+</Window>

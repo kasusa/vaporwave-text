@@ -1,0 +1,18 @@
+C:\Users\kasus\source\repos\vaporwave text\vaporwave text\bin\Debug\vaporwave text.exe
+C:\Users\kasus\source\repos\vaporwave text\vaporwave text\bin\Debug\vaporwave text.pdb
+C:\Users\kasus\source\repos\vaporwave text\vaporwave text\obj\Debug\App.g.cs
+C:\Users\kasus\source\repos\vaporwave text\vaporwave text\obj\Debug\vaporwave text_MarkupCompile.cache
+C:\Users\kasus\source\repos\vaporwave text\vaporwave text\obj\Debug\vaporwave text_MarkupCompile.lref
+C:\Users\kasus\source\repos\vaporwave text\vaporwave text\obj\Debug\vaporwave text.g.resources
+C:\Users\kasus\source\repos\vaporwave text\vaporwave text\obj\Debug\vaporwave_text.Properties.Resources.resources
+C:\Users\kasus\source\repos\vaporwave text\vaporwave text\obj\Debug\vaporwave text.csproj.GenerateResource.cache
+C:\Users\kasus\source\repos\vaporwave text\vaporwave text\obj\Debug\vaporwave text.exe
+C:\Users\kasus\source\repos\vaporwave text\vaporwave text\obj\Debug\vaporwave text.pdb
+C:\Users\kasus\source\repos\vaporwave text\vaporwave text\obj\Debug\vaportext.g.cs
+C:\Users\kasus\source\repos\vaporwave text\vaporwave text\obj\Debug\vaportext.baml
+C:\Users\kasus\source\repos\vaporwave text\vaporwave text\bin\Debug\vaporwave text.exe.manifest
+C:\Users\kasus\source\repos\vaporwave text\vaporwave text\bin\Debug\vaporwave text.application
+C:\Users\kasus\source\repos\vaporwave text\vaporwave text\obj\Debug\vaporwave text.csprojAssemblyReference.cache
+C:\Users\kasus\source\repos\vaporwave text\vaporwave text\obj\Debug\vaporwave text.TrustInfo.xml
+C:\Users\kasus\source\repos\vaporwave text\vaporwave text\obj\Debug\vaporwave text.exe.manifest
+C:\Users\kasus\source\repos\vaporwave text\vaporwave text\obj\Debug\vaporwave text.application

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="vaporwave text.exe" version="1.0.0.0" publicKeyToken="37bbf33fa325441c" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="vapor_3CZ_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="vaporwave text" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="vaporwave text.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" ID="Custom" SameSite="site" Unrestricted="true" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC 清单选项
+             如果想要更改 Windows 用户帐户控制级别，请使用
+             以下节点之一替换 requestedExecutionLevel 节点。n
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            指定 requestedExecutionLevel 元素将禁用文件和注册表虚拟化。
+            如果你的应用程序需要此虚拟化来实现向后兼容性，则删除此
+            元素。
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="vaporwave text.exe" size="628160">
+      <assemblyIdentity name="vaporwave text" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>PRS4c9tyXWP+AlhBvOED0NI1Vw8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="vapor_3CZ_icon.ico" size="109585">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>lC70mIki1bxLEfKEdg6cCZpXtn4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- 设计此应用程序与其一起工作且已针对此应用程序进行测试的
+           Windows 版本的列表。取消评论适当的元素，
+           Windows 将自动选择最兼容的环境。 -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-TTLGD00\kasus" issuerKeyHash="39a0202fba4273514fc2d1b51b1b4e12eedfde30" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>E2ujIu7Jbfe6Ln9oEz0sX9O0S3g=</DigestValue></Reference></SignedInfo><SignatureValue>gYLqd3efjuPXuPKcj1Ezd/G5qTjioaGFNl4U6VLXzzG5S7rWUAoR9ZxgGqvXTLAlhKYibax9g0VVbdbTRJKDbFeHIJekSN8AzPY5R8FP76Y0Rw3yIUKeSfCkQo6mmJ4Cc8a4PX54YueM+hSGGdcpdZKhRiT1ml6YLLjBEBUz0kY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>x//ntCu73+2uK0LUoZW0/qgM8AcVW/0biAbIXUTKQDRUVXLW8ljuAq26SHUz2/CZuFmHNvuP6tE/appQpF3DujTSHXlucHtQE/3MyAZ76zJ9DFowJKI7STxGXUxXcdR/VDCLlfY3n/hr526XiLkUiDfypQi6BHmsbq3ZqIBPX2k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="784bb4d35f2c3d13687f2ebaf76dc9ee22a36b13" Description="" Url=""><as:assemblyIdentity name="vaporwave text.exe" version="1.0.0.0" publicKeyToken="37bbf33fa325441c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-TTLGD00\kasus</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Ew4TNx3r/B31YCe2iXHj5tfAFio=</DigestValue></Reference></SignedInfo><SignatureValue>FvRDnrJEbG1jlqa1KHLFA13GXyvDEcQc8cR4+aMBuAevEn39PiISdZbeC0CUe3DpxEoD15gbH3whDtye4XJrDAWp88RFU/vVr88FZgpIDcD9QZKbDt6hio11aCtXzn0T9q0/goeqjCTd20jmCembtemrUWF6NCdFsc7rwc7l6gU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>x//ntCu73+2uK0LUoZW0/qgM8AcVW/0biAbIXUTKQDRUVXLW8ljuAq26SHUz2/CZuFmHNvuP6tE/appQpF3DujTSHXlucHtQE/3MyAZ76zJ9DFowJKI7STxGXUxXcdR/VDCLlfY3n/hr526XiLkUiDfypQi6BHmsbq3ZqIBPX2k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQM1LhA0RXI7ZFGQF0rXugIzANBgkqhkiG9w0BAQUFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFQAVABMAEcARAAwADAAXABrAGEAcwB1AHMwHhcNMjAwMTI0MTYyNjIwWhcNMjEwMTIzMjIyNjIwWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFQAVABMAEcARAAwADAAXABrAGEAcwB1AHMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMf/57Qru9/tritC1KGVtP6oDPAHFVv9G4gGyF1EykA0VFVy1vJY7gKtukh1M9vwmbhZhzb7j+rRP2qaUKRdw7o00h15bnB7UBP9zMgGe+syfQxaMCSiO0k8Rl1MV3HUf1Qwi5X2N5/4a+dul4i5FIg38qUIugR5rG6t2aiAT19pAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAAkwZ+snsZbRY/0WguvvBclkqEpe3joODWqPiyHkAHAq4imdbfFSLHqNkdlXi2/XA5XEkuDrRfex+CgxUQ6VNN5pPVtn4440ua16VVSv7QTTpmLffmNIQaHXXfGYP8zoL9JgrLxdYxPrifot7TNLgxZBO6O7CPnL+iVMgSHd50E0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
